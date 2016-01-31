@@ -16,7 +16,7 @@ var person = vex.dialog.prompt({
 		    		content += rep.first_name + " " + rep.last_name + " " + rep.district + " " + rep.state_name + " " + ((rep.party == 'D') ? 'Democrat' : "Republican") + "<br>" + "<br>";
 		    		// console.log(rep);
 		    	});
-		    	content += "";
+		    	content += "Remember to vote responsibly!";
 		    	vex.dialog.alert(content);
 		    });
 		    // $('#demo').html("Hello " + person + "! How are you today?");
