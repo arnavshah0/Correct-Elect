@@ -1,0 +1,61 @@
+p {
+    color: orange;
+    text-align: left;
+    font-family: 'Sanchez', serif;
+    font-size: 30px;
+}
+h1 {
+	color: black;	
+    text-align: center;
+    font-family: 'Sanchez', serif;
+	background-color: orange;
+}
+body { 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Sanchez', serif;
+    color: orange ;
+    font-size: 40px
+}
+#left {
+	width:49%;
+	display: inline-block;
+}
+#right {
+	width:49%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	font-family: 'Sanchez', serif;
+    font-size: 40px;
+    color: orange;
+}
+
+#background {
+	background-image: url("http://www.trbimg.com/img-52f18e5c/turbine/la-oe-mcmanus-column-fall-election-20140205-001/2048/2048x1363");
+	height: 100%;
+	width:100%;
+	top: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .8;
+	background-attachment: fixed;
+	z-index: -999;
+	background-repeat: no-repeat;
+}
+
+.btn-warning {
+	font-size: 45px;
+}
+.local {
+padding: 5px 106px;
+}
+mark {
+	color: orange;
+}
