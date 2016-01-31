@@ -13,8 +13,10 @@ var person = vex.dialog.prompt({
 		    		if (rep.district == null) {
 		    			rep.district = "(Senator)";
 		    		}
-		    		content += rep.first_name + " " + rep.last_name + " " + rep.district + "<br>" + "<br>";
+		    		content += rep.first_name + " " + rep.last_name + " " + rep.district + " " + rep.state_name + " " + ((rep.party == 'D') ? 'Democrat' : "Republican") + "<br>" + "<br>";
+		    		// console.log(rep);
 		    	});
+		    	content += "";
 		    	vex.dialog.alert(content);
 		    });
 		    // $('#demo').html("Hello " + person + "! How are you today?");
